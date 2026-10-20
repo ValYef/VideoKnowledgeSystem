@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="VideoKnowledgeSystem.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoKnowledgeSystem.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Padding="20" Spacing="15">
+        <TextBlock Text="Налаштування" FontSize="28" FontWeight="Bold" Margin="0,0,0,20"/>
+        <TextBlock Text="API URL:"/>
+        <TextBlock x:Name="ApiUrlTextBlock" Text="http://localhost:8000"/>
+    </StackPanel>
+</Page>
