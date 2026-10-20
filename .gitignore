@@ -34,10 +34,10 @@ packages/
 
 # Publish
 publish/
-bin/
-obj/
-build/
-.vs/
+**/bin/
+**/obj/
+**/.vs/
+**/build/
 Properties/
 models/
 
