@@ -1,0 +1,61 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.exe
+*.dll
+*.lib
+*.so
+*.vsidx
+
+# Rider
+.idea/
+
+# Logs
+*.log
+*.pt
+*.onnx
+*.pkl
+*.bin
+*.json
+
+*.csv
+*.npy
+
+*.manifest
+*.appxmanifest
+
+# NuGet
+packages/
+
+# Publish
+publish/
+**/bin/
+**/obj/
+**/.vs/
+**/build/
+Properties/
+models/
+
+# App packages
+AppPackages/
+
+# Generated files
+Generated Files/
+
+# Debug files
+Debug/
+Release/
+
+#Python
+*.pyc
+*.pyo
+*.pyd
+
+# Windows
+Thumbs.db
+Desktop.ini
